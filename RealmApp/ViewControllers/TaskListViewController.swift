@@ -43,7 +43,6 @@ class TaskListViewController: UITableViewController {
         let taskList = taskLists[indexPath.row]
         content.text = taskList.name
         content.secondaryText = "\(taskList.tasks.count)"
-        //content.secondaryText = 
         cell.contentConfiguration = content
         return cell
     }
